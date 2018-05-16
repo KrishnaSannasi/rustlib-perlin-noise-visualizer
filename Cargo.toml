@@ -4,4 +4,14 @@ version = "0.1.0"
 authors = ["Ozaren <krishna.sd.2012@gmail.com>"]
 
 [dependencies]
+vector = {path = "../vector", version = "*"}
 perlin-noise = {path = "../perlin-noise", version = "*"}
+
+piston = "0.36.0"
+piston_window = "0.79.0"
+pistoncore-glutin_window = "0.46.0"
+piston2d-opengl_graphics = "0.53.0"
+piston2d-graphics = "0.26.0"
+piston2d-gfx_graphics = "0.51.0"
+gfx_device_gl = "0.15.2"
+imageproc = "*"
