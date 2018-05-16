@@ -466,6 +466,13 @@ dependencies = [
 ]
 
 [[package]]
+name = "linear-algebra"
+version = "0.1.0"
+dependencies = [
+ "rand 0.4.2 (registry+https://github.com/rust-lang/crates.io-index)",
+]
+
+[[package]]
 name = "log"
 version = "0.4.1"
 source = "registry+https://github.com/rust-lang/crates.io-index"
@@ -663,8 +670,8 @@ source = "registry+https://github.com/rust-lang/crates.io-index"
 name = "perlin-noise"
 version = "0.1.0"
 dependencies = [
+ "linear-algebra 0.1.0",
  "rand 0.4.2 (registry+https://github.com/rust-lang/crates.io-index)",
- "vector 0.1.0",
 ]
 
 [[package]]
@@ -673,6 +680,7 @@ version = "0.1.0"
 dependencies = [
  "gfx_device_gl 0.15.2 (registry+https://github.com/rust-lang/crates.io-index)",
  "imageproc 0.15.0 (registry+https://github.com/rust-lang/crates.io-index)",
+ "linear-algebra 0.1.0",
  "perlin-noise 0.1.0",
  "piston 0.36.0 (registry+https://github.com/rust-lang/crates.io-index)",
  "piston2d-gfx_graphics 0.51.0 (registry+https://github.com/rust-lang/crates.io-index)",
@@ -680,7 +688,6 @@ dependencies = [
  "piston2d-opengl_graphics 0.53.0 (registry+https://github.com/rust-lang/crates.io-index)",
  "piston_window 0.79.0 (registry+https://github.com/rust-lang/crates.io-index)",
  "pistoncore-glutin_window 0.46.0 (registry+https://github.com/rust-lang/crates.io-index)",
- "vector 0.1.0",
 ]
 
 [[package]]
@@ -1152,13 +1159,6 @@ version = "0.3.1"
 source = "registry+https://github.com/rust-lang/crates.io-index"
 dependencies = [
  "piston-float 0.3.0 (registry+https://github.com/rust-lang/crates.io-index)",
-]
-
-[[package]]
-name = "vector"
-version = "0.1.0"
-dependencies = [
- "rand 0.4.2 (registry+https://github.com/rust-lang/crates.io-index)",
 ]
 
 [[package]]

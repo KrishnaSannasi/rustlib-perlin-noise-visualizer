@@ -7,7 +7,7 @@ extern crate gfx_graphics;
 extern crate gfx_device_gl;
 //extern crate image;
 
-extern crate vector;
+extern crate linear_algebra;
 extern crate perlin_noise;
 
 use std::sync::atomic::AtomicPtr;
@@ -18,7 +18,7 @@ use opengl_graphics::OpenGL;
 // use image::{Rgb, RgbImage};
 
 use perlin_noise::noise::*;
-use vector::vector::{VectorS, VectorD};
+use linear_algebra::vector::{VectorS, VectorD};
 
 mod gui;
 
